@@ -1,4 +1,5 @@
-# Guia Python  
+# Guia Python 🐍
+
 **Minha jornada para dominar o Python, um passo de cada vez**  
 
 🌎 [English Version](README.md)  
@@ -13,11 +14,13 @@ Bem-vindo! Este repositório é o meu diário de aprendizado em Python. Aqui, do
 
 Se você é iniciante, está no lugar certo: cada exemplo foi projetado para ser simples, direto e, mais importante, útil.  
 
+<br/>
+
 ---
+
 <br/>
 
 ## 🗂️ Estrutura do Repositório 
-<br/>
 
 O repositório está organizado de forma progressiva, começando com conceitos básicos e avançando para aplicações mais práticas:  
 
@@ -45,6 +48,8 @@ A melhor forma de aprender é praticando. Alguns projetos que você encontrará 
 - Scripts para cálculos simples e automações.  
 - Análise exploratória de dados com conjuntos reais de dados.  
 - Criação de gráficos interativos.  
+
+<br/>
 
 ---
 
@@ -74,6 +79,10 @@ python_guide/
 └── README.md
 ````
 
+---
+
+<br/>
+
 ## 🛠️ Como usar
 <br/>
 
@@ -87,7 +96,11 @@ python_guide/
 4. Abra os ficheiros no seu editor preferido e explore o código comentado.
 5. Experimente executando os scripts e adaptando-os às suas ideias!
 
+<br/>
+
 ---
+
+<br/>
 
 ## 🤝 Contribuições
 <br/>
@@ -96,6 +109,12 @@ Apesar de este ser um projeto pessoal, tenho todo o gosto em receber feedback ou
 
 - Tem algo a apontar? Abre uma **questão**.
 - Quer contribuir? Submete um **pull request**.
+
+<br/>
+
+---
+
+<br/>
  
 ## 📬 Vamos ligar-nos
 <br/>
@@ -105,7 +124,8 @@ Estou sempre aberto a trocar ideias e aprender com a comunidade. Podem encontrar
 - **LinkedIn:** [Luiz Albuquerque](https://www.linkedin.com/in/luiz-gustavo-silva-de-albuquerque337/)
 - **GitHub:** [luiz-11](https://github.com/luiz-11)
 
-##
+<br/>
+
+---
 
 Pronto para explorar o mundo do Python? Espero que este repositório seja tão útil para ti como tem sido para mim. Vamos aprender juntos! 🚀
-
