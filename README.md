@@ -1,4 +1,5 @@
-# Python Guide  
+# Python Guide 🐍
+          
 **My journey to mastering Python, one step at a time**  
 
 🌎 [Versão em Português](README_PT.md)  
