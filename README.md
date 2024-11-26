@@ -102,7 +102,7 @@ python_guide/
 
 <br/>
 
-## 🤝 Contributions
+## 🙏 Contributions
 <br/>
 
 Although this is a personal project, I’m happy to receive feedback or suggestions!
