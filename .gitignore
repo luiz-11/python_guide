@@ -1,3 +1,5 @@
+# Configuração do gitignore / Configuring gitignore
+
 # Python
 __pycache__/
 *.pyc
@@ -7,6 +9,6 @@ __pycache__/
 # Jupyter Notebooks
 .ipynb_checkpoints/
 
-# Sistema Operacional
+# Sistema Operacional / Operating System
 .DS_Store
 Thumbs.db
