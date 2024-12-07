@@ -2,12 +2,19 @@
 
 ## 📦 Como Instalar as Bibliotecas / How to Install the Libraries  
 
-Todas as bibliotecas necessárias estão listadas no arquivo `requirements.md`. Para instalar tudo de uma vez, use:  
-All the required libraries are listed in the `requirements.md` file. To install them all at once, use:  
+Todas as bibliotecas necessárias estão listadas no arquivo `requirements.md`. Para que o `pip` consiga instalar as dependências, você precisará renomear o arquivo para `requirements.txt`. Para fazer isso, use o seguinte comando:  
+All the required libraries are listed in the `requirements.md` file. For `pip` to install the dependencies, you need to rename the file to `requirements.txt`. To do this, use the following command:  
 
 ```bash
-pip install -r requirements.md
+mv requirements.md requirements.txt
 ````
+
+Após renomear o arquivo, para instalar todas as bibliotecas de uma vez, use:
+After renaming the file, to install all libraries at once, use:
+
+```bash
+pip install -r requirements.txt
+```
 
 ### Bibliotecas Incluídas / Included Libraries  
 - **`jupyterlab==3.6.3`**: Para criar e editar notebooks interativos / For creating and editing interactive notebooks.  
@@ -47,12 +54,12 @@ This will open a browser interface to access the project notebooks.
 ### 3. Instale as Bibliotecas do Projeto / Install Project Libraries  
 Para instalar todas as dependências, siga os passos abaixo:  
 To install all dependencies, follow these steps:  
-1. No terminal, navegue até o diretório onde está o arquivo `requirements.md`.  
-   In the terminal, navigate to the directory where the `requirements.md` file is located.  
+1. No terminal, navegue até o diretório onde está o arquivo `requirements.txt`.  
+   In the terminal, navigate to the directory where the `requirements.txt` file is located.  
 2. Execute o comando: / Run the command:  
 
 ```bash
-pip install -r requirements.md
+pip install -r requirements.txt
 ````
 
 Pronto! As bibliotecas estarão configuradas para uso.  
