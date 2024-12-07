@@ -2,8 +2,8 @@
 
 ## 📦 Como Instalar as Bibliotecas / How to Install the Libraries  
 
-Todas as bibliotecas necessárias estão listadas no arquivo `requirements.txt`. Para instalar tudo de uma vez, use:  
-All the required libraries are listed in the `requirements.txt` file. To install them all at once, use:  
+Todas as bibliotecas necessárias estão listadas no arquivo `requirements.md`. Para instalar tudo de uma vez, use:  
+All the required libraries are listed in the `requirements.md` file. To install them all at once, use:  
 
 ```bash
 pip install -r requirements.md
