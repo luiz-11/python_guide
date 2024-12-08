@@ -9,7 +9,7 @@ All the required libraries are listed in the `requirements.md` file. For `pip` t
 mv requirements.md requirements.txt
 ````
 
-Após renomear o arquivo, para instalar todas as bibliotecas de uma vez, use:
+Após renomear o arquivo, para instalar todas as bibliotecas de uma vez, use: <br/>
 After renaming the file, to install all libraries at once, use:
 
 ```bash
@@ -79,7 +79,8 @@ If you need more information, here are some helpful resources:
 
 ### 5. Teste Sua Instalação / Test Your Installation  
 Para verificar se tudo foi instalado corretamente, crie um notebook e execute este código:  
-To check if everything was installed correctly, create a notebook and run this code:  
+To check if everything was installed correctly, create a notebook and run this code: 
+
 ```python
 import numpy as np
 import pandas as pd
@@ -87,10 +88,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import scipy
 
-```bash
 print("Todas as bibliotecas foram instaladas com sucesso!")  # Libraries installed successfully!
 ````
 
-Se estiver tudo certo, você verá a mensagem:
-If everything is correct, you'll see the message:
-"Todas as bibliotecas foram instaladas com sucesso!" / "Libraries installed successfully!"
+Se estiver tudo certo, você verá a mensagem: "Todas as bibliotecas foram instaladas com sucesso!" <br/>
+If everything is correct, you'll see the message: "Libraries installed successfully!"
