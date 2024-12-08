@@ -30,7 +30,8 @@ pip install -r requirements.txt
 
 ### 1. Instale o Python / Install Python  
 Certifique-se de que o Python está instalado no seu computador. Baixe a versão mais recente aqui:  
-Make sure Python is installed on your computer. Download the latest version here:  
+Make sure Python is installed on your computer. Download the latest version here:
+
 [Baixar Python / Download Python](https://www.python.org/downloads/)  
 
 ### 2. Instale o Jupyter Notebook / Install Jupyter Notebook  
