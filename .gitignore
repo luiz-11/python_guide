@@ -1,14 +1,162 @@
-# Configuração do gitignore / Configuring gitignore
+# -------------------------
+# ⚙️ SISTEMA E AMBIENTE / SYSTEM AND ENVIRONMENT ⚙️
+# -------------------------
 
-# Python
+# Pastas e arquivos do Python / Python folders and files
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.bak
+
+# Ambientes virtuais do Python / Python virtual environments
+env/
+venv/
+.venv/
+ENV/
 .env
+.env.*
 
-# Jupyter Notebooks
+# Configurações do Jupyter Notebook / Jupyter Notebook configuration
 .ipynb_checkpoints/
+*.ipynb_checkpoints
 
-# Sistema Operacional / Operating System
-.DS_Store
-Thumbs.db
+# Arquivos de cache e temporários / Cache and temporary files
+.cache/
+*.tmp
+*.temp
+*~ 
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# Logs e arquivos de debug / Logs and debug files
+*.log
+debug.log
+nohup.out
+
+# -------------------------
+# 🗃️ DADOS E CREDENCIAIS / DATA AND CREDENTIALS 🗃️
+# -------------------------
+
+# Arquivos de dados sensíveis / Sensitive data files
+credentials.json
+secrets.json
+config.json
+config.yaml
+*.key
+*.pem
+
+# Arquivos de variáveis de ambiente / Environment variables files
+.env 
+*.env
+secret_settings/
+
+# Dados brutos ou testes locais / Raw data or local tests
+data/
+raw_data/
+*.csv
+*.xlsx
+*.json
+*.xml
+
+# Backups e exportações / Backups and exports
+backup/
+*.bak
+*.tar
+*.zip
+*.gz
+
+# -------------------------
+# 📊 PROJETOS E NOTEBOOKS / PROJECTS AND NOTEBOOKS 📊
+# -------------------------
+
+# Arquivos temporários de notebooks / Notebook temporary files
+*.checkpoint
+checkpoint/
+**/*.ipynb_checkpoints
+
+# Arquivos exportados do Jupyter / Jupyter exported files
+*.html
+*.pdf
+*.tex
+
+# Exclui imagens ou dados que não precisam ser versionados / Exclude images or data that don't need to be versioned
+plots/
+images/
+output/
+
+# -------------------------
+# 🖥️ FERRAMENTAS E IDE / TOOLS AND IDE 🖥️
+# -------------------------
+
+# Arquivos de IDEs / IDE files
+.vscode/
+.idea/
+*.iml
+
+# Arquivos de ferramentas de texto / Text editor files
+*.sublime-workspace
+*.sublime-project
+*.editorconfig
+
+# Configuração de Linting / Linting configuration
+.mypy_cache/
+flake8.log
+pylint.log
+
+# -------------------------
+# 🛠️ DEPENDÊNCIAS / DEPENDENCIES 🛠️
+# -------------------------
+
+# Pacotes e dependências instalados / Installed packages
+__pycache__/
+*.egg-info/
+dist/
+build/
+site/
+node_modules/
+bower_components/
+
+# Arquivos de requisitos gerados / Generated requirements files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos de lock
+Pipfile.lock
+poetry.lock
+
+# -------------------------
+# ⚠️ SEGURANÇA / SECURITY ⚠️
+# -------------------------
+
+# Arquivos que contêm chaves ou tokens / Files that contain keys or tokens
+keys/
+tokens/
+*.key
+*.pem
+*.crt
+
+# Não enviar scripts de teste local / Do not send local test scripts
+test_*.py
+local_tests/
+
+# -------------------------
+# 🚀 DEPLOY 🚀
+# -------------------------
+
+# Artefatos de build e pacotes gerados / Build artifacts and generated packages
+*.tar.gz
+*.whl
+*.egg
+*.exe
+*.dll
+
+# Logs de deployment / Deployment logs
+*.log
+*.out
+*.err
+nohup.out
